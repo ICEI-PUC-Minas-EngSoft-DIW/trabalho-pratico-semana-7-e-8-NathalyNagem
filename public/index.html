@@ -1,13 +1,270 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="app.js" defer></script>
+    <title>Palavras que brilham</title>
+    <link rel="shortcut icon" href="Images/Palavras que Brilham.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <style>
+        :root {
+            --bg-dark: #211b3a;
+            --bg-purple: #2c2048;
+            --accent-yellow: #fec655;
+            --accent-yellow-hover: #FFEB6E;
+        }
+        
+        body {
+            background-color: var(--bg-dark);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .bg-custom-purple {
+            background-color: var(--bg-purple);
+        }
+        
+        .bg-custom-yellow {
+            background-color: var(--accent-yellow);
+        }
+        
+        .btn-custom-yellow {
+            background-color: var(--accent-yellow);
+            border-color: var(--accent-yellow);
+            color: #000;
+        }
+        
+        .btn-custom-yellow:hover {
+            background-color: var(--accent-yellow-hover);
+            border-color: var(--accent-yellow-hover);
+            color: #000;
+        }
+        
+        .book-cover {
+            width: 150px;
+            height: 220px;
+            object-fit: cover;
+        }
+        
+        .author-img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border: 3px solid var(--accent-yellow);
+        }
+        
+        @media (max-width: 768px) {
+            .book-cover {
+                width: 130px;
+                height: 185px;
+            }
+            
+            .author-img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .book-cover {
+                width: 120px;
+                height: 170px;
+            }
+            
+            .author-img {
+                width: 90px;
+                height: 90px;
+            }
+        }
+    </style>
 </head>
-<body>
-    <h1>Olá mundo</h1>
+
+<body class="container-fluid">
+
+    <!--Cabeçalho-->
+
+    <header class="row mb-4">
+
+        <nav class="col-12">
+            <ul class="d-flex justify-content-end list-unstyled mb-0 flex-wrap">
+                <li class="ms-2 mb-2"><a href="index.html">Início</a></li>
+                <li class="ms-2 mb-2"><a href="sobre.html">Sobre</a></li>
+                <li class="ms-2 mb-2"><a href="contato.html">Contato</a></li>
+                <li class="ms-2 mb-2"><a href="perfil.html">Perfil</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Barra lateral-->
+
+    <div class="row">
+        <!-- Barra lateral -->
+        <aside class="col-lg-3 col-md-4 order-md-1 order-lg-1 mb-4">
+            <div class="bg-custom-purple p-4 rounded text-center">
+                <div class="logo mb-4">
+                    <a href="index.html"><img src="Images/Palavras que Brilham.png" alt="Logo" class="img-fluid" style="max-width: 130px;"></a>
+                </div>
+
+                <div class="procurar d-flex mb-4">
+                    <input type="search" class="form-control rounded-0 rounded-start" placeholder="Procurar" aria-label="procurar livros">
+                    <button class="btn btn-custom-yellow rounded-0 rounded-end">ok</button>
+                </div>
+
+                <div class="categorias">
+                    <h2 class="text-white mb-3">Categorias</h2>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Obras</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Escritores</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Gêneros</a></li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Conteúdo Principal -->
+        <main class="col-lg-9 col-md-8 order-md-2 order-lg-2">
+            <!-- Seção 1: Populares -->
+            <section class="bg-custom-purple p-4 rounded mb-4 text-white">
+                <h1 class="mb-4 pb-2 border-bottom">Populares</h1>
+                <div class="row justify-content-center">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
+                        <article>
+                            <img src="Images/A hora da estrela.png" alt="A hora da estrela" class="book-cover rounded mb-2">
+                            <h2 class="h6">A Hora Da Estrela</h2>
+                        </article>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
+                        <article>
+                            <img src="Images/jantar-secreto.webp" alt="Jantar secreto" class="book-cover rounded mb-2">
+                            <h2 class="h6">Jantar Secreto</h2>
+                        </article>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
+                        <article>
+                            <img src="Images/biblioteca-meia-noite.webp" alt="A biblioteca da meia-noite" class="book-cover rounded mb-2">
+                            <h2 class="h6">A Biblioteca Da Meia-noite</h2>
+                        </article>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
+                        <article>
+                            <img src="Images/Verity.png" alt="Verity" class="book-cover rounded mb-2">
+                            <h2 class="h6">Verity</h2>
+                        </article>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
+                        <article>
+                            <img src="Images/hipotese-amor-ali-hazelwood.webp" alt="Hipótese do amor" class="book-cover rounded mb-2">
+                            <h2 class="h6">Hipótese Do Amor</h2>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seção 2: Escritores -->
+            <section class="bg-custom-yellow p-4 rounded mb-4">
+                <h1 class="mb-4 pb-2 border-bottom border-dark">Escritores</h1>
+                <div class="row justify-content-center">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
+                        <article>
+                            <img src="Images/Colleen Hoover.png" alt="Colleen Hoover" class="author-img rounded-circle mb-2">
+                            <h2 class="h6">Colleen Hoover</h2>
+                        </article>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
+                        <article>
+                            <img src="Images/Clarice Lispector.png" alt="Clarice Lispector" class="author-img rounded-circle mb-2">
+                            <h2 class="h6">Clarice Lispector</h2>
+                        </article>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
+                        <article>
+                            <img src="Images/Sarah j mass.png" alt="Sarah J. Maas" class="author-img rounded-circle mb-2">
+                            <h2 class="h6">Sarah J. Maas</h2>
+                        </article>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
+                        <article>
+                            <img src="Images/rick riordan.png" alt="Rick Riordan" class="author-img rounded-circle mb-2">
+                            <h2 class="h6">Rick Riordan</h2>
+                        </article>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
+                        <article>
+                            <img src="Images/JRR Tolkien.png" alt="J.R.R Tolkien" class="author-img rounded-circle mb-2">
+                            <h2 class="h6">J.R.R Tolkien</h2>
+                        </article>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
+                        <article>
+                            <img src="Images/Carla Madeira.png" alt="Carla Madeira" class="author-img rounded-circle mb-2">
+                            <h2 class="h6">Carla Madeira</h2>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seção 3: Outros -->
+            <section class="bg-custom-purple p-4 rounded text-white">
+                <h1 class="mb-4 pb-2 border-bottom">Outros</h1>
+                <div class="row justify-content-center">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
+                        <article>
+                            <img src="Images/E assim que acaba.png" alt="É assim que acaba" class="book-cover rounded mb-2">
+                            <h2 class="h6">É Assim Que Acaba</h2>
+                        </article>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
+                        <article>
+                            <img src="Images/it a coisa.png" alt="It a coisa" class="book-cover rounded mb-2">
+                            <h2 class="h6">It A Coisa</h2>
+                        </article>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
+                        <article>
+                            <img src="Images/A menina que roubava livros.png" alt="A menina que roubava livros" class="book-cover rounded mb-2">
+                            <h2 class="h6">A Menina Que Roubava Livros</h2>
+                        </article>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
+                        <article>
+                            <img src="Images/orgulho-e-preconceito.png" alt="Orgulho E Preconceito" class="book-cover rounded mb-2">
+                            <h2 class="h6">Orgulho E Preconceito</h2>
+                        </article>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
+                        <article>
+                            <img src="Images/imperfeitos.png" alt="Imperfeitos" class="book-cover rounded mb-2">
+                            <h2 class="h6">Imperfeitos</h2>
+                        </article>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
+                        <article>
+                            <img src="Images/Querida penelope.png" alt="Querida penelope" class="book-cover rounded mb-2">
+                            <h2 class="h6">Querida Penelope</h2>
+                        </article>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
+                        <article>
+                            <img src="Images/Corrupt.png" alt="Corrupt" class="book-cover rounded mb-2">
+                            <h2 class="h6">Corrupt</h2>
+                        </article>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
+                        <article>
+                            <img src="Images/Garota exemplar.png" alt="Garota exemplar" class="book-cover rounded mb-2">
+                            <h2 class="h6">Garota Exemplar</h2>
+                        </article>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
+                        <article>
+                            <img src="Images/Frankenstein.png" alt="Frankenstein" class="book-cover rounded mb-2">
+                            <h2 class="h6">Frankenstein</h2>
+                        </article>
+                    </div>
+                    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script type="text-javascript" src="app.js"></script>
 </body>
 </html>
