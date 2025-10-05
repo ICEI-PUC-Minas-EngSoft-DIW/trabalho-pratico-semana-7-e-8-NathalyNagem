@@ -4,7 +4,7 @@ const biblioteca = {
     "populares": [
         {
             'id': 1,
-            'imagem': 'images/a-hora-da-estrela.png',
+            'imagem': 'Images/a-hora-da-estrela.png',
             'titulo': 'A Hora Da Estrela',
             'autor': 'Clarice Lispector',
             'descricao': '"A Hora da Estrela" (1977) é a última obra publicada em vida por Clarice Lispector e é considerada um de seus trabalhos mais acessíveis e, ao mesmo tempo, mais complexos. Mais do que a simples história de uma vida miserável, o livro é uma profunda investigação filosófica sobre a existência, a solidão, a indiferença social e a natureza da   narrativa.',
@@ -16,7 +16,7 @@ const biblioteca = {
         },
         {
             'id': 2,
-            'imagem': 'images/jantar-secreto.webp',
+            'imagem': 'Images/jantar-secreto.webp',
             'titulo': 'Jantar Secreto',
             'autor': 'Raphael Montes',
             'descricao': '"O Jantar Secreto", do autor espanhol Javier Sierra, é um thriller histórico que se tornou um best-seller internacional, comparado a obras como O Código Da Vinci por seu tema, mas com uma abordagem narrativa própria.',
@@ -28,7 +28,7 @@ const biblioteca = {
         },
         {
             'id': 3,
-            'imagem': 'images/biblioteca-meia-noite.webp',
+            'imagem': 'Images/biblioteca-meia-noite.webp',
             'titulo': 'A Biblioteca Da Meia-Noite',
             'autor': 'Matt Haig',
             'descricao': '"A Biblioteca da Meia-Noite" (2020), do autor britânico Matt Haig, é um fenômeno literário que combina elementos de ficção especulativa, autoajuda filosófica e um drama profundamente humano. É um livro que fala sobre arrependimento, esperança e as infinitas possibilidades que existem em cada escolha.',
@@ -40,7 +40,7 @@ const biblioteca = {
         },
         {
             'id': 4,
-            'imagem': 'images/Verity.png',
+            'imagem': 'Images/Verity.png',
             'titulo': 'Verity',
             'autor': 'Colleen Hoover',
             'descricao': '"Verity" é um romance de Colleen Hoover, conhecida principalmente por seus romances New Adult, que se aventurou com maestria no gênero do thriller psicológico. O livro é marcado por sua atmosfera opressiva, temas sombrios e um twist final que é amplamente discutido pelos leitores.',
@@ -52,7 +52,7 @@ const biblioteca = {
         },
         {
             'id': 5,
-            'imagem': 'images/hipotese-amor-ali-hazelwood.webp',
+            'imagem': 'Images/hipotese-amor-ali-hazelwood.webp',
             'titulo': 'A Hipótese Do Amor',
             'autor': 'Ali Hazelwood',
             'descricao': '"A Hipótese do Amor" (The Love Hypothesis), da autora Ali Hazelwood, começou como uma fanfiction de Star Wars e se tornou um fenômeno editorial. É o livro pioneiro e mais famoso do subgênero "Academic Romance" (Romance Acadêmico), ambientado no mundo competitivo e de alta pressão da pós-graduação e da pesquisa científica.',
@@ -118,7 +118,7 @@ const biblioteca = {
     "outros": [
         {
             'id': 6,
-            'imagem': 'images/assim-acaba.png',
+            'imagem': 'Images/assim-acaba.png',
             'titulo': 'É Assim Que Acaba',
             'autor': 'Colleen Hoover',
             'descricao': '"É Assim que Acaba" (It Ends With Us) é muito mais do que um romance. Publicado em 2016, é a obra mais pessoal e corajosa de Colleen Hoover, e se tornou um fenômeno global, gerando discussões profundas e necessárias.',
@@ -130,7 +130,7 @@ const biblioteca = {
         },
         {
             'id': 7,
-            'imagem': 'images/it-a-coisa.png',
+            'imagem': 'Images/it-a-coisa.png',
             'titulo': 'It A Coisa',
             'autor': 'Stephen King',
             'descricao': '"It: A Coisa" (1986) é muito mais do que um simples romance de terror. É uma obra épica e seminal de Stephen King que explora a infância, a memória, o trauma e a natureza do mal, tanto sobrenatural quanto humano.',
@@ -142,7 +142,7 @@ const biblioteca = {
         },
         {
             'id': 8,
-            'imagem': 'images/a-menina-que-roubava-livros.png',
+            'imagem': 'Images/a-menina-que-roubava-livros.png',
             'titulo': 'A Menina Que Roubava Livros',
             'autor': 'Markus Zusak',
             'descricao': '"A Menina que Roubava Livros" (The Book Thief, 2005) é um romance do autor australiano Markus Zusak. Diferente de qualquer outra narrativa sobre o Holocausto, o livro é uma celebração do poder das palavras e uma comovente meditação sobre a humanidade em tempos desumanos',
@@ -154,7 +154,7 @@ const biblioteca = {
         },
         {
             'id': 9,
-            'imagem': 'images/orgulho-e-preconceito.png',
+            'imagem': 'Images/orgulho-e-preconceito.png',
             'titulo': 'Orgulho E Preconceito',
             'autor': 'Jane Austen',
             'descricao': '"Orgulho e Preconceito" (1813) é a obra-prima da escritora inglesa Jane Austen e um dos romances mais amados e influentes de todos os tempos. Muito mais do que uma simples história de amor, é uma sátira social afiada e uma análise perspicaz da sociedade de sua época.',
@@ -166,7 +166,7 @@ const biblioteca = {
         },
         {
             'id': 10,
-            'imagem': 'images/imperfeitos.png',
+            'imagem': 'Images/imperfeitos.png',
             'titulo': 'Imperfeitos',
             'autor': 'Christina Lauren',
             'descricao': '',
@@ -178,7 +178,7 @@ const biblioteca = {
         },
         {
             'id': 11,
-            'imagem': 'images/Querida-penelope.png',
+            'imagem': 'Images/Querida-penelope.png',
             'titulo': 'Querida Penelope',
             'autor': 'Arquelana',
             'descricao': '"Querida Penélope" é um thriller psicológico nacional escrito por Karina F. C. D. Santiago que se tornou um grande sucesso entre os leitores brasileiros, especialmente nas plataformas digitais.',
@@ -190,7 +190,7 @@ const biblioteca = {
         },
         {
             'id': 12,
-            'imagem': 'images/Corrupt.png',
+            'imagem': 'Images/Corrupt.png',
             'titulo': 'Corrupt',
             'autor': 'Penelope Douglas',
             'descricao': '"Corrupt" (2015) é o primeiro livro da série "Devils Night" de Penelope Douglas. É um romance de Dark Romance (Romance Sombrio) que se tornou um fenômeno no gênero, conhecido por seus temas intensos, personagens moralmente ambíguos e química eletrizante.',
@@ -202,7 +202,7 @@ const biblioteca = {
         },
         {
             'id': 13,
-            'imagem': 'images/Garota-exemplar.png',
+            'imagem': 'Images/Garota-exemplar.png',
             'titulo': 'Garota Exemplar',
             'autor': 'Gillian Flynn',
             'descricao': '"Garota Exemplar" (2012) é um thriller psicológico magistral da autora americana Gillian Flynn. Muito mais do que um simples romance policial, é um estudo de casamento sombrio e uma sátira afiada à cultura da mídia e às expectativas sociais.',
@@ -214,7 +214,7 @@ const biblioteca = {
         },
         {
             'id': 14,
-            'imagem': 'images/Lady-Killers.png',
+            'imagem': 'Images/Lady-Killers.png',
             'titulo': 'Lady Killers',
             'autor': 'Tori Telfer',
             'descricao': '"Lady Killers" (2017) é um livro de Tori Telfer, um trabalho de jornalismo investigativo e true crime com uma lente feminista. Ele se destaca por seu tom acessível, inteligente e irônico, longe do sensacionalismo barato.',
@@ -226,7 +226,7 @@ const biblioteca = {
         },
         {
             'id': 15,
-            'imagem': 'images/Frankeinstein.png',
+            'imagem': 'Images/Frankenstein.png',
             'titulo': 'Frankenstein',
             'autor': 'Mary Shelley',
             'descricao': '"Frankenstein; ou, O Prometeu Moderno" (1818) é muito mais do que o primeiro romance de ficção científica; é uma obra-prima do Romantismo que explora temas filosóficos profundos.',
@@ -239,6 +239,15 @@ const biblioteca = {
     ]
 };
 
+function getUrlParams() {
+    const params = new URLSearchParams (window.location.search);
+    const paramsObj = {};
+    for (const [key, value] of params) {
+        paramsObj[key] = value;
+    }
+    return paramsObj;
+}
+
 function carregarHomePage() {
     console.log('Carregando homepage dinâmica...');
 
@@ -249,8 +258,10 @@ function carregarHomePage() {
             const livroHTML = `
                 <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
                     <article>
-                        <img src="${livro.imagem}" alt="${livro.titulo}" class="book-cover rounded mb-2">
-                        <h2 class="h6 text-white">${livro.titulo}</h2>
+                        <a href="detalhes.html?id=${livro.id}&tipo=livro" class="text-decoration-none">
+                            <img src="${livro.imagem}" alt="${livro.titulo}" class="book-cover rounded mb-2">
+                            <h2 class="h6 text-white">${livro.titulo}</h2>
+                        </a>
                     </article>
                 </div>
             `;
@@ -264,8 +275,10 @@ function carregarHomePage() {
             const escritorHTML = `
                 <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
                     <article>
-                        <img src="${escritor.imagem}" alt="${escritor.nome}" class="author-img rounded-circle mb-2">
-                        <h2 class="h6">${escritor.nome}</h2>
+                        <a href="detalhes.html?id=${escritor.id}&tipo=escritor" class="text-decoration-none text-dark">
+                            <img src="${escritor.imagem}" alt="${escritor.nome}" class="author-img rounded-circle mb-2">
+                            <h2 class="h6">${escritor.nome}</h2>
+                        </a>
                     </article>
                 </div>
             `;
@@ -279,13 +292,82 @@ function carregarHomePage() {
             const livroHTML = `
                 <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-4 text-center">
                     <article>
-                        <img src="${livro.imagem}" alt="${livro.titulo}" class="book-cover rounded mb-2">
-                        <h2 class="h6 text-white">${livro.titulo}</h2>
+                        <a href="detalhes.html?id=${livro.id}&tipo=livro" class="text-decoration-none">
+                            <img src="${livro.imagem}" alt="${livro.titulo}" class="book-cover rounded mb-2">
+                            <h2 class="h6 text-white">${livro.titulo}</h2>
+                        </a>
                     </article>
                 </div>
             `;
             divOutros.innerHTML += livroHTML;
         });
+    }
+}
+
+//carregar página de detalhes
+function carregarDetalhesPage() {
+    const container = document.getElementById('detalhes-item');
+
+    if (!container) {
+        return;
+    }
+
+    const params = getUrlParams();
+    const itemId = parseInt(params.id);
+    const tipo = params.tipo; //livro ou escritor
+
+    if (itemId && tipo) {
+        mostrarDetalhes(itemId, tipo, container);
+    } else {
+        container.innerHTML = '<p class="text-white">Item não encontrado<a href="index.html">Voltar para a página inicial</a></p>';
+    }
+}
+
+function mostrarDetalhes(itemId, tipo, container) {
+    let item;
+
+    if (tipo === 'livro') {
+        item = [...biblioteca.populares, ...biblioteca.outros] .find(livro => livro.id === itemId);
+    } else if (tipo === 'escritor') {
+        item = biblioteca.escritores.find(escritor => escritor.id === itemId);
+    }
+
+    if (item) {
+        if (tipo === 'livro') {
+            container.innerHTML = `<div class="row">
+                    <div class="col-md-4 text-center">
+                        <img src="${item.imagem}" alt="${item.titulo}" class="book-cover-detalhes rounded mb-4">
+                    </div>
+                    <div class="col-md-8">
+                        <h1 class="text-white mb-3">${item.titulo}</h1>
+                        <h3 class="text-white mb-4">${item.autor}</h3>
+                        <p class="text-white mb-4">${item.descricao}</p>
+                        <p class="text-white mb-4">${item.sinopse}</p>
+                        <div class="detalhes-livro text-white">
+                            <p><strong>Categoria:</strong> ${item.categoria}</p>
+                            <p><strong>Ano de publicação:</strong> ${item.ano}</p>
+                            <p><strong>Páginas:</strong> ${item.paginas}</p>
+                            <p><strong>Editora:</strong> ${item.editora}</p>
+                        </div>
+                    </div>
+                </div>
+            `;
+        } else if (tipo === 'escritor') {
+            container.innerHTML = `<div class="row">
+                    <div class="col-md-4 text-center">
+                        <img src="${item.imagem}" alt="${item.nome}" class="author-img rounded-circle mb-4">
+                    </div>
+                    <div class="col-md-8">
+                        <h1 class="text-white mb-3">${item.nome}</h1>
+                        <h3 class="text-white mb-4">${item.genero}</h3>
+                        <p class="text-white mb-4">${item.biografia}</p>
+                        <p><strong>Nascimento:</strong> ${item.nascimento}</p>
+                    </div>
+                </div>
+            `;
+        }
+    } else {
+        container.innerHTML = '<p class="text-white">Item não encontrado.<a href="index.html">Voltar para a página inicial</a></p>';
     }
 }
 
@@ -295,6 +377,6 @@ document.addEventListener('DOMContentLoaded', function() {
     if (currentPage === 'index.html' || currentPage === '') {
         carregarHomePage();
     } else if (currentPage === 'detalhes.html') {
-        console.log('Página de detalhes')
+        carregarDetalhesPage();
     }
 });
